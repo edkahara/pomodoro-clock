@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pomodoro Clock</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Free Code Camp Project called Pomodoro Clock" />
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT/JQUERY" />
+    <meta name="author" content="Edward Njoroge" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="text-center" id="main">
+      <!--settings and buttons-->
+      <h1 class="text-center">Pomodoro Clock</h1>
+      <div class="workDiv">
+        <h1 id="work">Work Time</h1>
+		<a href="#" class="btn btn-primary" id="minusWork">-</a>
+        <h2 id="workTimeLeft">Work:</h2>
+        <h2 id="workTime">25</h2>
+        <a href="#" class="btn btn-primary" id="plusWork">+</a>
+      </div>
+      <div class="restDiv">
+		<h1 id="rest">Rest Time</h1>
+		<a href="#" class="btn btn-primary" id="minusRest">-</a>
+		<h2 id="restTimeLeft">Rest:</h2>
+		<h2 id="restTime">5</h2>
+		<a href="#" class="btn btn-primary" id="plusRest">+</a>
+	  </div>
+      <div>
+		<h2 id="finished">FINISHED!</h2>
+      </div>
+      <a href="#" class="btn btn-primary" id="start">Start</a> 
+      <a href="#" class="btn btn-primary" id="pause">Pause</a> 
+      <a href="#" class="btn btn-primary" id="resume">Resume</a> 
+      <a href="#" class="btn btn-primary" id="reset">Reset</a>
+	</div>
+  </body>
+</html>

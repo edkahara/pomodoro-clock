@@ -1,0 +1,18 @@
+body {
+  color: white;
+  height: 100%;
+}
+#main {
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  display: inline;
+}
+#start, #pause, #reset {
+  margin: 10px;
+}
